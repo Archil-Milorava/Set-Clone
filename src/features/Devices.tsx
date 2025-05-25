@@ -1,6 +1,6 @@
 const Devices = () => {
   return (
-    <div className="p-6 md:p-8 bg-white w-full sm:w-[40%] rounded-xl shadow-sm">
+    <div className="p-6 md:p-8 bg-white w-full sm:w-[40%] rounded-xl ">
       <div className="space-y-6">
         {/* Mobile App */}
         <div className="flex items-start gap-4">
