@@ -4,16 +4,26 @@ import Button from "../../components/Button";
 
 const NavbarMan = () => {
   return (
-    <nav className=" hidden bg-[#000000] h-24 w-full text-white sm:flex justify-around items-center">
-      <ul className=" font-semibold flex items-center gap-6">
-        <img src={logoYellow} alt="logo" />
-        <li className="hover:opacity-80 cursor-pointer">Home</li>
-        <li className="hover:opacity-80 cursor-pointer">News</li>
-        <li className="hover:opacity-80 cursor-pointer">Scores</li>
-        <div className="hidden sm:flex hover:opacity-80 cursor-pointer items-center gap-1">
+    <nav className=" bg-[#000000] h-24 w-full text-white flex justify-around items-center">
+      <ul className="font-semibold flex items-center gap-6">
+        <img
+          src={logoYellow}
+          alt="logo"
+          className="cursor-pointer hover:opacity-80 "
+        />
+        <li className="hover:text-primary transition-colors cursor-pointer ">
+          Home
+        </li>
+        <li className="hover:text-primary transition-colors cursor-pointer">
+          News
+        </li>
+        <li className="hover:text-primary transition-colors cursor-pointer">
+          Scores
+        </li>
+        <li className="hidden sm:flex hover:text-primary transition-colors cursor-pointer items-center gap-1">
           <img className="h-4" src={setantaNetflixLogo} alt="mini-logo" />
-          <li>Fan Pack</li>
-        </div>
+          <span>Fan Pack</span>
+        </li>
       </ul>
       <Button>Watch Now</Button>
     </nav>

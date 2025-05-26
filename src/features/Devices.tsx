@@ -4,10 +4,10 @@ const Devices = () => {
       <div className="space-y-6">
         {/* Mobile App */}
         <div className="flex items-start gap-4">
-          <div className="bg-blue-100 p-3 rounded-lg">
+          <div className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-blue-600"
+              className="h-12  font-bold text-primary"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -31,10 +31,10 @@ const Devices = () => {
 
         {/* Desktop */}
         <div className="flex items-start gap-4">
-          <div className="bg-purple-100 p-3 rounded-lg">
+          <div className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-purple-600"
+              className="h-11 text-primary"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -58,10 +58,10 @@ const Devices = () => {
 
         {/* Smart TV */}
         <div className="flex items-start gap-4">
-          <div className="bg-red-100 p-3 rounded-lg">
+          <div className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-red-600"
+              className="h-11 text-primary"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -85,20 +85,19 @@ const Devices = () => {
             <p className="text-gray-600 mt-1">
               Sign up on setantasports.com, download Setanta Sports App from
               Application Store on your Android, LG or Samsung Smart TV.{" "}
-              <a href="#" className="text-blue-600 hover:underline">
+              <a href="#" className="text-primary hover:underline">
                 For detailed instructions click here
               </a>
-              .
             </p>
           </div>
         </div>
 
         {/* Cast */}
         <div className="flex items-start gap-4">
-          <div className="bg-green-100 p-3 rounded-lg">
+          <div className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-green-600"
+              className="h-11 text-primary"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

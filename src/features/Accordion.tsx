@@ -31,8 +31,8 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="  p-8 bg-white rounded-xl mx-[10rem]">
-      <h1 className="text-6xl font-bold mb-8 uppercase">
+    <div className="  p-8 bg-white rounded-xl lg:mx-[10rem] my-8">
+      <h1 className="sm:text-6xl text-4xl font-bold mb-8 uppercase">
         Frequently Asked Questions
       </h1>
 

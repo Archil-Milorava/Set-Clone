@@ -45,11 +45,11 @@ const FilterSection = () => {
       </div>
 
       {/* Sports Grid - Images Only */}
-      <div className="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12">
+      <div className="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12 ">
         {filteredSports.map((sport) => (
           <div
             key={sport.name}
-            className="aspect-square flex items-center justify-center p-1 bg-white rounded hover:shadow-md transition-all"
+            className="aspect-square flex items-center justify-center p-1 bg-white rounded hover:shadow-md "
             title={sport.name}
           >
             <img
