@@ -1,54 +1,42 @@
-# React + TypeScript + Vite
+# ⚽ Sport Streaming Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **landing page clone** of a beautifully designed sport streaming platform. The UI is built with **Tailwind CSS v4**, and interactive animations are powered by **Framer Motion**. The goal was to replicate the design and user experience of the original website as closely as possible for practice and portfolio purposes.
 
-Currently, two official plugins are available:
+> 🎯 This project focuses on layout, styling, and animation—not on backend or streaming functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+[🔗 View Live Site](https://set-clone.vercel.app/)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React**
+- **Tailwind CSS v4**
+- **Framer Motion**
+
+---
+
+## ✨ Features
+
+- Fully responsive design
+- Smooth entrance animations using Framer Motion
+- Clean layout mimicking the original streaming platform
+- Tailwind 4 utility-first styling
+
+---
+
+## 🧠 Lessons Learned
+
+- Working with Tailwind v4's enhanced utility system
+- Improved layout structure for responsive design
+- Practicing animation timing and motion choreography
+- Reverse-engineering real UI designs
+
+---
+
